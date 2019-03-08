@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/tdobhal/Downloads/project/thirdparty/libpng/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/thirdparty/libpng/CMakeFiles/generate.stamp is up-to-date.
+  png.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\thirdparty\lib\Debug\libpng.lib

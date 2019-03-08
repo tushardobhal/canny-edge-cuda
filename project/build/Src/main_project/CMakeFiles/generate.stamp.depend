@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir/main_project_generated_cannyEdge.cu.obj.depend
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindCUDA/run_nvcc.cmake
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir/main_project_generated_cannyEdge.cu.obj.cmake.pre-gen

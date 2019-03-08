@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/tdobhal/Downloads/project/thirdparty/liblcms2/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/thirdparty/liblcms2/CMakeFiles/generate.stamp is up-to-date.
+  lcms2.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\thirdparty\lib\Debug\liblcms2.lib

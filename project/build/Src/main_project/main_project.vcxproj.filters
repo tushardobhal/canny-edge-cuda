@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\Src\main_project\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\Src\main_project\intImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tdobhal\Downloads\project\Src\main_project\intImage.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu" />
+    <CustomBuild Include="C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\ca48d3feafad3fc2cc124c7c789ac80c\main_project_intermediate_link.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_intermediate_link.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5BB08AB0-F61C-3DB1-B59A-A11C6C1473B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E83647B9-8EBF-3152-B2C7-A55748BA0D6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{025B21D8-C560-31FA-932C-B5C3B7F1A454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{F50A62CF-3FC8-38D2-B406-CC72970439CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

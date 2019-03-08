@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmscam02.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmscgats.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmscnvrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmserr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsgamma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsgmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsintrp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsio0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsio1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmslut.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsmd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsmtrx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsnamed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmspack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmspcs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsplugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsps2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmssamp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmssm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmstypes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsvirt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmswtpnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\src\cmsxform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\include\lcms2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\include\lcms2_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tdobhal\Downloads\project\thirdparty\liblcms2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5BB08AB0-F61C-3DB1-B59A-A11C6C1473B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6446239B-0766-34F7-A260-30EF24ABF7C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

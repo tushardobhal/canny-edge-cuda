@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D8530F54-F96B-32E5-92DD-A3DFB8B6A284}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>main_project</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main_project.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">main_project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main_project.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">main_project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main_project.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">main_project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main_project.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">main_project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cuda.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\freeglut.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\glew64.lib;./imageLib/Debug/imageLibd.lib;libz.lib;libpng.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cuda.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\freeglut.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\glew64.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;./imageLib/Debug/imageLibd.lib;libz.lib;libpng.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/tdobhal/Downloads/project/build/thirdparty/lib;C:/Users/tdobhal/Downloads/project/build/thirdparty/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/Debug/main_project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/Debug/main_project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cuda.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\freeglut.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\glew64.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cuda.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\freeglut.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\glew64.lib;./imageLib/Release/imageLib.lib;libz.lib;libpng.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;./imageLib/Release/imageLib.lib;libz.lib;libpng.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/tdobhal/Downloads/project/build/thirdparty/lib/Release;C:/Users/tdobhal/Downloads/project/build/thirdparty/lib/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/Release/main_project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/Release/main_project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cuda.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\freeglut.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\glew64.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cuda.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\freeglut.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\glew64.lib;./imageLib/Release/imageLib.lib;libz.lib;libpng.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;./imageLib/Release/imageLib.lib;libz.lib;libpng.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/tdobhal/Downloads/project/build/thirdparty/lib/Release;C:/Users/tdobhal/Downloads/project/build/thirdparty/lib/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/MinSizeRel/main_project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/MinSizeRel/main_project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILD_THIRDPARTY:BOOL=ON;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tdobhal\Downloads\project\Src;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart_static.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cuda.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\freeglut.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\glew64.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cuda.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\cudart.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\freeglut.lib;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.1\common\lib\x64\glew64.lib;./imageLib/Release/imageLib.lib;libz.lib;libpng.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;./imageLib/Release/imageLib.lib;libz.lib;libpng.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/tdobhal/Downloads/project/build/thirdparty/lib/Release;C:/Users/tdobhal/Downloads/project/build/thirdparty/lib/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/RelWithDebInfo/main_project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/RelWithDebInfo/main_project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_generated_cannyEdge.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj -D generated_cubin_file:STRING=C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj.cubin.txt -P C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//main_project_generated_cannyEdge.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/tdobhal/Downloads/project/Src/main_project/cannyEdge.cu;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ConcurrencySal.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\crtdefs.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdarg;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstddef;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdlib;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\eh.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\initializer_list;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\limits.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\new;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdarg.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\use_ansi.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vadefs.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_string.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xkeycheck.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstddef;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtr1common;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\assert.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_malloc.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memcpy_s.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memory.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_search.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_stdio_config.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_terminate.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdlib.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wtime.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\builtin_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\channel_descriptor.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\common_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\common_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_double_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_double_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\host_config.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\host_defines.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\math_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\math_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\sm_70_rt.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\sm_70_rt.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_device_runtime_api.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_runtime.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_runtime_api.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_surface_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_texture_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_launch_parameters.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\driver_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\driver_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\host_config.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\host_defines.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\library_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_30_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_30_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_35_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_35_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_60_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_60_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_61_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_61_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_indirect_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_fetch_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_indirect_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_types.h;C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\main_project_generated_cannyEdge.cu.obj.Debug.cmake;C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_generated_cannyEdge.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj -D generated_cubin_file:STRING=C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj.cubin.txt -P C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//main_project_generated_cannyEdge.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/tdobhal/Downloads/project/Src/main_project/cannyEdge.cu;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ConcurrencySal.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\crtdefs.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdarg;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstddef;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdlib;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\eh.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\initializer_list;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\limits.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\new;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdarg.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\use_ansi.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vadefs.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_string.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xkeycheck.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstddef;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtr1common;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\assert.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_malloc.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memcpy_s.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memory.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_search.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_stdio_config.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_terminate.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdlib.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wtime.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\builtin_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\channel_descriptor.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\common_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\common_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_double_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_double_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\host_config.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\host_defines.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\math_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\math_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\sm_70_rt.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\sm_70_rt.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_device_runtime_api.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_runtime.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_runtime_api.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_surface_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_texture_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_launch_parameters.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\driver_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\driver_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\host_config.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\host_defines.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\library_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_30_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_30_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_35_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_35_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_60_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_60_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_61_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_61_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_indirect_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_fetch_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_indirect_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_types.h;C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\main_project_generated_cannyEdge.cu.obj.Release.cmake;C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building NVCC (Device) object Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_generated_cannyEdge.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj -D generated_cubin_file:STRING=C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj.cubin.txt -P C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//main_project_generated_cannyEdge.cu.obj.MinSizeRel.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/tdobhal/Downloads/project/Src/main_project/cannyEdge.cu;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ConcurrencySal.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\crtdefs.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdarg;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstddef;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdlib;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\eh.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\initializer_list;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\limits.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\new;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdarg.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\use_ansi.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vadefs.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_string.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xkeycheck.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstddef;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtr1common;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\assert.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_malloc.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memcpy_s.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memory.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_search.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_stdio_config.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_terminate.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdlib.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wtime.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\builtin_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\channel_descriptor.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\common_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\common_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_double_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_double_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\host_config.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\host_defines.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\math_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\math_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\sm_70_rt.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\sm_70_rt.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_device_runtime_api.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_runtime.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_runtime_api.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_surface_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_texture_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_launch_parameters.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\driver_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\driver_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\host_config.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\host_defines.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\library_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_30_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_30_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_35_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_35_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_60_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_60_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_61_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_61_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_indirect_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_fetch_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_indirect_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_types.h;C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\main_project_generated_cannyEdge.cu.obj.MinSizeRel.cmake;C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building NVCC (Device) object Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_generated_cannyEdge.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj -D generated_cubin_file:STRING=C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj.cubin.txt -P C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//main_project_generated_cannyEdge.cu.obj.RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/tdobhal/Downloads/project/Src/main_project/cannyEdge.cu;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ConcurrencySal.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cmath;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\crtdefs.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdarg;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstddef;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\cstdlib;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\eh.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\exception;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\initializer_list;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\limits.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\new;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\stdarg.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\type_traits;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\use_ansi.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vadefs.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_exception.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_string.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xkeycheck.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstddef;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtr1common;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\yvals.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\assert.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_malloc.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memcpy_s.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memory.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_search.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_stdio_config.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_terminate.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdlib.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wtime.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\builtin_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\channel_descriptor.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\common_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\common_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_double_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_double_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\device_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\host_config.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\host_defines.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\math_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\math_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\sm_70_rt.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\crt\sm_70_rt.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_device_runtime_api.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_runtime.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_runtime_api.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_surface_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\cuda_texture_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_launch_parameters.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\device_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\driver_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\driver_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\host_config.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\host_defines.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\library_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_20_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_30_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_30_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_32_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_35_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_35_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_60_atomic_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_60_atomic_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_61_intrinsics.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\sm_61_intrinsics.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_indirect_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\surface_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_fetch_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_indirect_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\texture_types.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_functions.h;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_functions.hpp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\vector_types.h;C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\main_project_generated_cannyEdge.cu.obj.RelWithDebInfo.cmake;C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/tdobhal/Downloads/project -BC:/Users/tdobhal/Downloads/canny-edge-cuda/project/build --check-stamp-file C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt;C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\main_project_generated_cannyEdge.cu.obj.depend;C:\Program Files\CMake\share\cmake-3.10\Modules\FindCUDA\run_nvcc.cmake;C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/tdobhal/Downloads/project -BC:/Users/tdobhal/Downloads/canny-edge-cuda/project/build --check-stamp-file C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt;C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\main_project_generated_cannyEdge.cu.obj.depend;C:\Program Files\CMake\share\cmake-3.10\Modules\FindCUDA\run_nvcc.cmake;C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/tdobhal/Downloads/project -BC:/Users/tdobhal/Downloads/canny-edge-cuda/project/build --check-stamp-file C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt;C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\main_project_generated_cannyEdge.cu.obj.depend;C:\Program Files\CMake\share\cmake-3.10\Modules\FindCUDA\run_nvcc.cmake;C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/tdobhal/Downloads/project -BC:/Users/tdobhal/Downloads/canny-edge-cuda/project/build --check-stamp-file C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/tdobhal/Downloads/project/Src/main_project/CMakeLists.txt;C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\main_project_generated_cannyEdge.cu.obj.depend;C:\Program Files\CMake\share\cmake-3.10\Modules\FindCUDA\run_nvcc.cmake;C:\Users\tdobhal\Downloads\project\Src\main_project\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\ca48d3feafad3fc2cc124c7c789ac80c\main_project_intermediate_link.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC intermediate link file Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_intermediate_link.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -lnvToolExt -gencode arch=compute_52,code=sm_52 --cudart=shared -lineinfo -arch sm_52 -use_fast_math -maxrregcount 104 -m64 -ccbin "$(VCInstallDir)bin" -dlink C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj -o C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_intermediate_link.obj -Xcompiler /MDd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/ca48d3feafad3fc2cc124c7c789ac80c/main_project_intermediate_link.obj.rule;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_intermediate_link.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC intermediate link file Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_intermediate_link.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -lnvToolExt -gencode arch=compute_52,code=sm_52 --cudart=shared -lineinfo -arch sm_52 -use_fast_math -maxrregcount 104 -m64 -ccbin "$(VCInstallDir)bin" -dlink C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj -o C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_intermediate_link.obj -Xcompiler /MD
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/ca48d3feafad3fc2cc124c7c789ac80c/main_project_intermediate_link.obj.rule;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_intermediate_link.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building NVCC intermediate link file Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_intermediate_link.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -lnvToolExt -gencode arch=compute_52,code=sm_52 --cudart=shared -lineinfo -arch sm_52 -use_fast_math -maxrregcount 104 -m64 -ccbin "$(VCInstallDir)bin" -dlink C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj -o C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_intermediate_link.obj -Xcompiler /MD
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/ca48d3feafad3fc2cc124c7c789ac80c/main_project_intermediate_link.obj.rule;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_intermediate_link.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building NVCC intermediate link file Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_intermediate_link.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -lnvToolExt -gencode arch=compute_52,code=sm_52 --cudart=shared -lineinfo -arch sm_52 -use_fast_math -maxrregcount 104 -m64 -ccbin "$(VCInstallDir)bin" -dlink C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir//$(Configuration)/main_project_generated_cannyEdge.cu.obj -o C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/Src/main_project/CMakeFiles/main_project.dir/$(Configuration)/main_project_intermediate_link.obj -Xcompiler /MD
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/ca48d3feafad3fc2cc124c7c789ac80c/main_project_intermediate_link.obj.rule;C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_intermediate_link.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_generated_cannyEdge.cu.obj" />
+    <ClInclude Include="C:\Users\tdobhal\Downloads\project\Src\main_project\cannyEdge.h" />
+    <ClInclude Include="C:\Users\tdobhal\Downloads\project\Src\main_project\intImage.h" />
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\Src\main_project\main.cpp"  />
+    <ClCompile Include="C:\Users\tdobhal\Downloads\project\Src\main_project\intImage.cpp"  />
+    <Object Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\Src\main_project\CMakeFiles\main_project.dir\$(Configuration)\main_project_intermediate_link.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\ZERO_CHECK.vcxproj">
+      <Project>{9ADAB883-83B6-32C1-872A-83BA19EC8B0C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

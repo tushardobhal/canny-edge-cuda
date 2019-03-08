@@ -1,0 +1,32 @@
+# CMake generation dependency list for this directory.
+C:/Users/tdobhal/Downloads/project/CMakeLists.txt
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/3.10.2/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/3.10.2/CMakeCCompiler.cmake
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/3.10.2/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindCUDA/select_compute_arch.cmake
+C:/Users/tdobhal/Downloads/project/cmake/FindNVTX.cmake
+C:/Users/tdobhal/Downloads/project/cmake/FindNVML.cmake
+C:/Users/tdobhal/Downloads/project/cmake/FindGLEW.cmake
+C:/Users/tdobhal/Downloads/project/cmake/FindFREEGLUT.cmake
