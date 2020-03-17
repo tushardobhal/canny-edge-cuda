@@ -1,0 +1,1952 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:03 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\3.10.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\3.10.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\3.10.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:04 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\3.10.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\3.10.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\3.10.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ce2f4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:04 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_ce2f4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ce2f4.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ce2f4.dir\Debug\cmTC_ce2f4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ce2f4.dir\Debug\cmTC_ce2f4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce2f4.dir\Debug\\" /Fd"cmTC_ce2f4.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce2f4.dir\Debug\\" /Fd"cmTC_ce2f4.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ce2f4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ce2f4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ce2f4.lib" /MACHINE:X64  /machine:x64 cmTC_ce2f4.dir\Debug\testCCompiler.obj
+  cmTC_ce2f4.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ce2f4.exe
+  cmTC_ce2f4.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ce2f4.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_ce2f4.dir\Debug\cmTC_ce2f4.tlog\unsuccessfulbuild".
+  Touching "cmTC_ce2f4.dir\Debug\cmTC_ce2f4.tlog\cmTC_ce2f4.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_ce2f4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_42d00.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:05 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_42d00.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_42d00.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_42d00.dir\Debug\cmTC_42d00.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_42d00.dir\Debug\cmTC_42d00.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42d00.dir\Debug\\" /Fd"cmTC_42d00.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42d00.dir\Debug\\" /Fd"cmTC_42d00.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_42d00.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_42d00.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_42d00.lib" /MACHINE:X64  /machine:x64 cmTC_42d00.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_42d00.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_42d00.exe
+  cmTC_42d00.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_42d00.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_42d00.dir\Debug\cmTC_42d00.tlog\unsuccessfulbuild".
+  Touching "cmTC_42d00.dir\Debug\cmTC_42d00.tlog\cmTC_42d00.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_42d00.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fc45e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:06 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_fc45e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fc45e.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fc45e.dir\Debug\cmTC_fc45e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fc45e.dir\Debug\cmTC_fc45e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fc45e.dir\Debug\\" /Fd"cmTC_fc45e.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fc45e.dir\Debug\\" /Fd"cmTC_fc45e.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc45e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc45e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc45e.lib" /MACHINE:X64  /machine:x64 cmTC_fc45e.dir\Debug\testCXXCompiler.obj
+  cmTC_fc45e.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc45e.exe
+  cmTC_fc45e.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc45e.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_fc45e.dir\Debug\cmTC_fc45e.tlog\unsuccessfulbuild".
+  Touching "cmTC_fc45e.dir\Debug\cmTC_fc45e.tlog\cmTC_fc45e.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_fc45e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_95aa9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:07 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_95aa9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_95aa9.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_95aa9.dir\Debug\cmTC_95aa9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_95aa9.dir\Debug\cmTC_95aa9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_95aa9.dir\Debug\\" /Fd"cmTC_95aa9.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_95aa9.dir\Debug\\" /Fd"cmTC_95aa9.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_95aa9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_95aa9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_95aa9.lib" /MACHINE:X64  /machine:x64 cmTC_95aa9.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_95aa9.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_95aa9.exe
+  cmTC_95aa9.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_95aa9.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_95aa9.dir\Debug\cmTC_95aa9.tlog\unsuccessfulbuild".
+  Touching "cmTC_95aa9.dir\Debug\cmTC_95aa9.tlog\cmTC_95aa9.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_95aa9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_42232.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:07 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_42232.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_42232.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_42232.dir\Debug\cmTC_42232.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_42232.dir\Debug\cmTC_42232.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_42232.dir\Debug\\" /Fd"cmTC_42232.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_42232.dir\Debug\\" /Fd"cmTC_42232.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_42232.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_42232.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_42232.lib" /MACHINE:X64  /machine:x64 cmTC_42232.dir\Debug\feature_tests.obj
+  cmTC_42232.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_42232.exe
+  cmTC_42232.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_42232.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_42232.dir\Debug\cmTC_42232.tlog\unsuccessfulbuild".
+  Touching "cmTC_42232.dir\Debug\cmTC_42232.tlog\cmTC_42232.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_42232.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4b84b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:08 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_4b84b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4b84b.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4b84b.dir\Debug\cmTC_4b84b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4b84b.dir\Debug\cmTC_4b84b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b84b.dir\Debug\\" /Fd"cmTC_4b84b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b84b.dir\Debug\\" /Fd"cmTC_4b84b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_4b84b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_4b84b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_4b84b.lib" /MACHINE:X64  /machine:x64 cmTC_4b84b.dir\Debug\CheckIncludeFile.obj
+  cmTC_4b84b.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_4b84b.exe
+  cmTC_4b84b.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_4b84b.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_4b84b.dir\Debug\cmTC_4b84b.tlog\unsuccessfulbuild".
+  Touching "cmTC_4b84b.dir\Debug\cmTC_4b84b.tlog\cmTC_4b84b.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_4b84b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6fd1f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:09 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_6fd1f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6fd1f.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6fd1f.dir\Debug\cmTC_6fd1f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6fd1f.dir\Debug\cmTC_6fd1f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6fd1f.dir\Debug\\" /Fd"cmTC_6fd1f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6fd1f.dir\Debug\\" /Fd"cmTC_6fd1f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_6fd1f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6fd1f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6fd1f.lib" /MACHINE:X64  /machine:x64 cmTC_6fd1f.dir\Debug\CheckIncludeFile.obj
+  cmTC_6fd1f.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_6fd1f.exe
+  cmTC_6fd1f.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6fd1f.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_6fd1f.dir\Debug\cmTC_6fd1f.tlog\unsuccessfulbuild".
+  Touching "cmTC_6fd1f.dir\Debug\cmTC_6fd1f.tlog\cmTC_6fd1f.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_6fd1f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2a711.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:10 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_2a711.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2a711.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2a711.dir\Debug\cmTC_2a711.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2a711.dir\Debug\cmTC_2a711.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a711.dir\Debug\\" /Fd"cmTC_2a711.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a711.dir\Debug\\" /Fd"cmTC_2a711.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_2a711.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2a711.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2a711.lib" /MACHINE:X64  /machine:x64 cmTC_2a711.dir\Debug\CheckIncludeFile.obj
+  cmTC_2a711.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_2a711.exe
+  cmTC_2a711.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2a711.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_2a711.dir\Debug\cmTC_2a711.tlog\unsuccessfulbuild".
+  Touching "cmTC_2a711.dir\Debug\cmTC_2a711.tlog\cmTC_2a711.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_2a711.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9f46f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:12 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_9f46f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9f46f.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9f46f.dir\Debug\cmTC_9f46f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9f46f.dir\Debug\cmTC_9f46f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f46f.dir\Debug\\" /Fd"cmTC_9f46f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f46f.dir\Debug\\" /Fd"cmTC_9f46f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_9f46f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_9f46f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_9f46f.lib" /MACHINE:X64  /machine:x64 cmTC_9f46f.dir\Debug\CMAKE_SIZEOF_UNSIGNED_SHORT.obj
+  cmTC_9f46f.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_9f46f.exe
+  cmTC_9f46f.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_9f46f.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_9f46f.dir\Debug\cmTC_9f46f.tlog\unsuccessfulbuild".
+  Touching "cmTC_9f46f.dir\Debug\cmTC_9f46f.tlog\cmTC_9f46f.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_9f46f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a0805.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:12 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_a0805.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a0805.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a0805.dir\Debug\cmTC_a0805.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a0805.dir\Debug\cmTC_a0805.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0805.dir\Debug\\" /Fd"cmTC_a0805.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\TestEndianess.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0805.dir\Debug\\" /Fd"cmTC_a0805.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\TestEndianess.c"
+  
+  TestEndianess.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a0805.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a0805.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a0805.lib" /MACHINE:X64  /machine:x64 cmTC_a0805.dir\Debug\TestEndianess.obj
+  cmTC_a0805.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a0805.exe
+  cmTC_a0805.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a0805.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_a0805.dir\Debug\cmTC_a0805.tlog\unsuccessfulbuild".
+  Touching "cmTC_a0805.dir\Debug\cmTC_a0805.tlog\cmTC_a0805.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_a0805.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ef1a7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:14 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_ef1a7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ef1a7.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ef1a7.dir\Debug\cmTC_ef1a7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ef1a7.dir\Debug\cmTC_ef1a7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef1a7.dir\Debug\\" /Fd"cmTC_ef1a7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef1a7.dir\Debug\\" /Fd"cmTC_ef1a7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ef1a7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef1a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef1a7.lib" /MACHINE:X64  /machine:x64 cmTC_ef1a7.dir\Debug\CheckIncludeFiles.obj
+  cmTC_ef1a7.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ef1a7.exe
+  cmTC_ef1a7.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef1a7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_ef1a7.dir\Debug\cmTC_ef1a7.tlog\unsuccessfulbuild".
+  Touching "cmTC_ef1a7.dir\Debug\cmTC_ef1a7.tlog\cmTC_ef1a7.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_ef1a7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8c78b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:15 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_8c78b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8c78b.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8c78b.dir\Debug\cmTC_8c78b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8c78b.dir\Debug\cmTC_8c78b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c78b.dir\Debug\\" /Fd"cmTC_8c78b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c78b.dir\Debug\\" /Fd"cmTC_8c78b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_8c78b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_8c78b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_8c78b.lib" /MACHINE:X64  /machine:x64 cmTC_8c78b.dir\Debug\CheckIncludeFiles.obj
+  cmTC_8c78b.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_8c78b.exe
+  cmTC_8c78b.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_8c78b.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_8c78b.dir\Debug\cmTC_8c78b.tlog\unsuccessfulbuild".
+  Touching "cmTC_8c78b.dir\Debug\cmTC_8c78b.tlog\cmTC_8c78b.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_8c78b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_05f67.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:15 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_05f67.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_05f67.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_05f67.dir\Debug\cmTC_05f67.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_05f67.dir\Debug\cmTC_05f67.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05f67.dir\Debug\\" /Fd"cmTC_05f67.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05f67.dir\Debug\\" /Fd"cmTC_05f67.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_05f67.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_05f67.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_05f67.lib" /MACHINE:X64  /machine:x64 cmTC_05f67.dir\Debug\CheckIncludeFiles.obj
+  cmTC_05f67.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_05f67.exe
+  cmTC_05f67.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_05f67.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_05f67.dir\Debug\cmTC_05f67.tlog\unsuccessfulbuild".
+  Touching "cmTC_05f67.dir\Debug\cmTC_05f67.tlog\cmTC_05f67.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_05f67.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if files io.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6237d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:16 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_6237d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6237d.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6237d.dir\Debug\cmTC_6237d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6237d.dir\Debug\cmTC_6237d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6237d.dir\Debug\\" /Fd"cmTC_6237d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6237d.dir\Debug\\" /Fd"cmTC_6237d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_6237d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6237d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6237d.lib" /MACHINE:X64  /machine:x64 cmTC_6237d.dir\Debug\CheckIncludeFiles.obj
+  cmTC_6237d.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_6237d.exe
+  cmTC_6237d.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6237d.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_6237d.dir\Debug\cmTC_6237d.tlog\unsuccessfulbuild".
+  Touching "cmTC_6237d.dir\Debug\cmTC_6237d.tlog\cmTC_6237d.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_6237d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1b0ee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:17 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_1b0ee.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1b0ee.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1b0ee.dir\Debug\cmTC_1b0ee.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1b0ee.dir\Debug\cmTC_1b0ee.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b0ee.dir\Debug\\" /Fd"cmTC_1b0ee.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b0ee.dir\Debug\\" /Fd"cmTC_1b0ee.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_1b0ee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_1b0ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_1b0ee.lib" /MACHINE:X64  /machine:x64 cmTC_1b0ee.dir\Debug\CheckIncludeFiles.obj
+  cmTC_1b0ee.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_1b0ee.exe
+  cmTC_1b0ee.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_1b0ee.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_1b0ee.dir\Debug\cmTC_1b0ee.tlog\unsuccessfulbuild".
+  Touching "cmTC_1b0ee.dir\Debug\cmTC_1b0ee.tlog\cmTC_1b0ee.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_1b0ee.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_557ac.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:17 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_557ac.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_557ac.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_557ac.dir\Debug\cmTC_557ac.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_557ac.dir\Debug\cmTC_557ac.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_557ac.dir\Debug\\" /Fd"cmTC_557ac.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_557ac.dir\Debug\\" /Fd"cmTC_557ac.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_557ac.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_557ac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_557ac.lib" /MACHINE:X64  /machine:x64 cmTC_557ac.dir\Debug\CheckIncludeFiles.obj
+  cmTC_557ac.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_557ac.exe
+  cmTC_557ac.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_557ac.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_557ac.dir\Debug\cmTC_557ac.tlog\unsuccessfulbuild".
+  Touching "cmTC_557ac.dir\Debug\cmTC_557ac.tlog\cmTC_557ac.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_557ac.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fcf83.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:18 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_fcf83.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fcf83.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fcf83.dir\Debug\cmTC_fcf83.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fcf83.dir\Debug\cmTC_fcf83.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fcf83.dir\Debug\\" /Fd"cmTC_fcf83.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fcf83.dir\Debug\\" /Fd"cmTC_fcf83.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fcf83.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fcf83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fcf83.lib" /MACHINE:X64  /machine:x64 cmTC_fcf83.dir\Debug\CheckIncludeFiles.obj
+  cmTC_fcf83.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_fcf83.exe
+  cmTC_fcf83.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_fcf83.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_fcf83.dir\Debug\cmTC_fcf83.tlog\unsuccessfulbuild".
+  Touching "cmTC_fcf83.dir\Debug\cmTC_fcf83.tlog\cmTC_fcf83.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_fcf83.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if files search.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_06fc7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:18 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_06fc7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_06fc7.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_06fc7.dir\Debug\cmTC_06fc7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_06fc7.dir\Debug\cmTC_06fc7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06fc7.dir\Debug\\" /Fd"cmTC_06fc7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06fc7.dir\Debug\\" /Fd"cmTC_06fc7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_06fc7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_06fc7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_06fc7.lib" /MACHINE:X64  /machine:x64 cmTC_06fc7.dir\Debug\CheckIncludeFiles.obj
+  cmTC_06fc7.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_06fc7.exe
+  cmTC_06fc7.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_06fc7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_06fc7.dir\Debug\cmTC_06fc7.tlog\unsuccessfulbuild".
+  Touching "cmTC_06fc7.dir\Debug\cmTC_06fc7.tlog\cmTC_06fc7.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_06fc7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a3dd0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:19 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_a3dd0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a3dd0.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a3dd0.dir\Debug\cmTC_a3dd0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a3dd0.dir\Debug\cmTC_a3dd0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3dd0.dir\Debug\\" /Fd"cmTC_a3dd0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3dd0.dir\Debug\\" /Fd"cmTC_a3dd0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a3dd0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a3dd0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a3dd0.lib" /MACHINE:X64  /machine:x64 cmTC_a3dd0.dir\Debug\CheckIncludeFiles.obj
+  cmTC_a3dd0.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a3dd0.exe
+  cmTC_a3dd0.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a3dd0.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_a3dd0.dir\Debug\cmTC_a3dd0.tlog\unsuccessfulbuild".
+  Touching "cmTC_a3dd0.dir\Debug\cmTC_a3dd0.tlog\cmTC_a3dd0.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_a3dd0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f9636.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:20 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_f9636.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f9636.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f9636.dir\Debug\cmTC_f9636.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f9636.dir\Debug\cmTC_f9636.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9636.dir\Debug\\" /Fd"cmTC_f9636.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9636.dir\Debug\\" /Fd"cmTC_f9636.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_f9636.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_f9636.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_f9636.lib" /MACHINE:X64  /machine:x64 cmTC_f9636.dir\Debug\CheckIncludeFiles.obj
+  cmTC_f9636.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_f9636.exe
+  cmTC_f9636.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_f9636.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_f9636.dir\Debug\cmTC_f9636.tlog\unsuccessfulbuild".
+  Touching "cmTC_f9636.dir\Debug\cmTC_f9636.tlog\cmTC_f9636.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_f9636.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3971c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:21 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_3971c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3971c.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3971c.dir\Debug\cmTC_3971c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3971c.dir\Debug\cmTC_3971c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3971c.dir\Debug\\" /Fd"cmTC_3971c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3971c.dir\Debug\\" /Fd"cmTC_3971c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_3971c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_3971c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_3971c.lib" /MACHINE:X64  /machine:x64 cmTC_3971c.dir\Debug\CheckIncludeFiles.obj
+  cmTC_3971c.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_3971c.exe
+  cmTC_3971c.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_3971c.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_3971c.dir\Debug\cmTC_3971c.tlog\unsuccessfulbuild".
+  Touching "cmTC_3971c.dir\Debug\cmTC_3971c.tlog\cmTC_3971c.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_3971c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9de8c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:22 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_9de8c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9de8c.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9de8c.dir\Debug\cmTC_9de8c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9de8c.dir\Debug\cmTC_9de8c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9de8c.dir\Debug\\" /Fd"cmTC_9de8c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9de8c.dir\Debug\\" /Fd"cmTC_9de8c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_9de8c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_9de8c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_9de8c.lib" /MACHINE:X64  /machine:x64 cmTC_9de8c.dir\Debug\CheckIncludeFiles.obj
+  cmTC_9de8c.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_9de8c.exe
+  cmTC_9de8c.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_9de8c.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_9de8c.dir\Debug\cmTC_9de8c.tlog\unsuccessfulbuild".
+  Touching "cmTC_9de8c.dir\Debug\cmTC_9de8c.tlog\cmTC_9de8c.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_9de8c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if files windows.h exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d70f2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:23 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_d70f2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d70f2.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d70f2.dir\Debug\cmTC_d70f2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d70f2.dir\Debug\cmTC_d70f2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d70f2.dir\Debug\\" /Fd"cmTC_d70f2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d70f2.dir\Debug\\" /Fd"cmTC_d70f2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_d70f2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_d70f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_d70f2.lib" /MACHINE:X64  /machine:x64 cmTC_d70f2.dir\Debug\CheckIncludeFiles.obj
+  cmTC_d70f2.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_d70f2.exe
+  cmTC_d70f2.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_d70f2.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_d70f2.dir\Debug\cmTC_d70f2.tlog\unsuccessfulbuild".
+  Touching "cmTC_d70f2.dir\Debug\cmTC_d70f2.tlog\cmTC_d70f2.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_d70f2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_85425.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:26 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_85425.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_85425.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_85425.dir\Debug\cmTC_85425.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_85425.dir\Debug\cmTC_85425.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85425.dir\Debug\\" /Fd"cmTC_85425.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85425.dir\Debug\\" /Fd"cmTC_85425.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_85425.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_85425.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_85425.lib" /MACHINE:X64  /machine:x64 cmTC_85425.dir\Debug\CheckFunctionExists.obj
+  cmTC_85425.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_85425.exe
+  cmTC_85425.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_85425.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_85425.dir\Debug\cmTC_85425.tlog\unsuccessfulbuild".
+  Touching "cmTC_85425.dir\Debug\cmTC_85425.tlog\cmTC_85425.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_85425.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_04b90.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:26 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_04b90.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_04b90.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_04b90.dir\Debug\cmTC_04b90.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_04b90.dir\Debug\cmTC_04b90.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memset /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04b90.dir\Debug\\" /Fd"cmTC_04b90.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memset /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04b90.dir\Debug\\" /Fd"cmTC_04b90.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_04b90.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_04b90.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_04b90.lib" /MACHINE:X64  /machine:x64 cmTC_04b90.dir\Debug\CheckFunctionExists.obj
+  cmTC_04b90.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_04b90.exe
+  cmTC_04b90.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_04b90.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_04b90.dir\Debug\cmTC_04b90.tlog\unsuccessfulbuild".
+  Touching "cmTC_04b90.dir\Debug\cmTC_04b90.tlog\cmTC_04b90.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_04b90.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_82eed.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:28 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_82eed.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_82eed.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_82eed.dir\Debug\cmTC_82eed.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_82eed.dir\Debug\cmTC_82eed.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strchr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82eed.dir\Debug\\" /Fd"cmTC_82eed.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strchr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82eed.dir\Debug\\" /Fd"cmTC_82eed.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_82eed.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_82eed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_82eed.lib" /MACHINE:X64  /machine:x64 cmTC_82eed.dir\Debug\CheckFunctionExists.obj
+  cmTC_82eed.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_82eed.exe
+  cmTC_82eed.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_82eed.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_82eed.dir\Debug\cmTC_82eed.tlog\unsuccessfulbuild".
+  Touching "cmTC_82eed.dir\Debug\cmTC_82eed.tlog\cmTC_82eed.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_82eed.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4bd03.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:29 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_4bd03.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4bd03.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4bd03.dir\Debug\cmTC_4bd03.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4bd03.dir\Debug\cmTC_4bd03.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strrchr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4bd03.dir\Debug\\" /Fd"cmTC_4bd03.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strrchr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4bd03.dir\Debug\\" /Fd"cmTC_4bd03.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_4bd03.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_4bd03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_4bd03.lib" /MACHINE:X64  /machine:x64 cmTC_4bd03.dir\Debug\CheckFunctionExists.obj
+  cmTC_4bd03.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_4bd03.exe
+  cmTC_4bd03.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_4bd03.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_4bd03.dir\Debug\cmTC_4bd03.tlog\unsuccessfulbuild".
+  Touching "cmTC_4bd03.dir\Debug\cmTC_4bd03.tlog\cmTC_4bd03.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_4bd03.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cb8eb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:29 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_cb8eb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cb8eb.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cb8eb.dir\Debug\cmTC_cb8eb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cb8eb.dir\Debug\cmTC_cb8eb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strstr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb8eb.dir\Debug\\" /Fd"cmTC_cb8eb.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strstr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb8eb.dir\Debug\\" /Fd"cmTC_cb8eb.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_cb8eb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_cb8eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_cb8eb.lib" /MACHINE:X64  /machine:x64 cmTC_cb8eb.dir\Debug\CheckFunctionExists.obj
+  cmTC_cb8eb.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_cb8eb.exe
+  cmTC_cb8eb.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_cb8eb.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_cb8eb.dir\Debug\cmTC_cb8eb.tlog\unsuccessfulbuild".
+  Touching "cmTC_cb8eb.dir\Debug\cmTC_cb8eb.tlog\cmTC_cb8eb.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_cb8eb.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ef799.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:30 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_ef799.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ef799.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ef799.dir\Debug\cmTC_ef799.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ef799.dir\Debug\cmTC_ef799.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtol /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef799.dir\Debug\\" /Fd"cmTC_ef799.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtol /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef799.dir\Debug\\" /Fd"cmTC_ef799.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ef799.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef799.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef799.lib" /MACHINE:X64  /machine:x64 cmTC_ef799.dir\Debug\CheckFunctionExists.obj
+  cmTC_ef799.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_ef799.exe
+  cmTC_ef799.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef799.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_ef799.dir\Debug\cmTC_ef799.tlog\unsuccessfulbuild".
+  Touching "cmTC_ef799.dir\Debug\cmTC_ef799.tlog\cmTC_ef799.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_ef799.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_942d6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:30 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_942d6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_942d6.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_942d6.dir\Debug\cmTC_942d6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_942d6.dir\Debug\cmTC_942d6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoul /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_942d6.dir\Debug\\" /Fd"cmTC_942d6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoul /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_942d6.dir\Debug\\" /Fd"cmTC_942d6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_942d6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_942d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_942d6.lib" /MACHINE:X64  /machine:x64 cmTC_942d6.dir\Debug\CheckFunctionExists.obj
+  cmTC_942d6.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_942d6.exe
+  cmTC_942d6.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_942d6.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_942d6.dir\Debug\cmTC_942d6.tlog\unsuccessfulbuild".
+  Touching "cmTC_942d6.dir\Debug\cmTC_942d6.tlog\cmTC_942d6.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_942d6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_aceac.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:31 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_aceac.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_aceac.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_aceac.dir\Debug\cmTC_aceac.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_aceac.dir\Debug\cmTC_aceac.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aceac.dir\Debug\\" /Fd"cmTC_aceac.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aceac.dir\Debug\\" /Fd"cmTC_aceac.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_aceac.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_aceac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_aceac.lib" /MACHINE:X64  /machine:x64 cmTC_aceac.dir\Debug\CheckFunctionExists.obj
+  cmTC_aceac.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_aceac.exe
+  cmTC_aceac.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_aceac.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_aceac.dir\Debug\cmTC_aceac.tlog\unsuccessfulbuild".
+  Touching "cmTC_aceac.dir\Debug\cmTC_aceac.tlog\cmTC_aceac.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_aceac.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of signed int passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_83f46.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:32 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_83f46.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_83f46.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_83f46.dir\Debug\cmTC_83f46.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_83f46.dir\Debug\cmTC_83f46.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83f46.dir\Debug\\" /Fd"cmTC_83f46.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_INT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83f46.dir\Debug\\" /Fd"cmTC_83f46.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_INT.c"
+  
+  SIZEOF_SIGNED_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_83f46.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_83f46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_83f46.lib" /MACHINE:X64  /machine:x64 cmTC_83f46.dir\Debug\SIZEOF_SIGNED_INT.obj
+  cmTC_83f46.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_83f46.exe
+  cmTC_83f46.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_83f46.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_83f46.dir\Debug\cmTC_83f46.tlog\unsuccessfulbuild".
+  Touching "cmTC_83f46.dir\Debug\cmTC_83f46.tlog\cmTC_83f46.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_83f46.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of signed long passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_44bd7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:32 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_44bd7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_44bd7.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_44bd7.dir\Debug\cmTC_44bd7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_44bd7.dir\Debug\cmTC_44bd7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44bd7.dir\Debug\\" /Fd"cmTC_44bd7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44bd7.dir\Debug\\" /Fd"cmTC_44bd7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_LONG.c"
+  
+  SIZEOF_SIGNED_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_44bd7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_44bd7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_44bd7.lib" /MACHINE:X64  /machine:x64 cmTC_44bd7.dir\Debug\SIZEOF_SIGNED_LONG.obj
+  cmTC_44bd7.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_44bd7.exe
+  cmTC_44bd7.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_44bd7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_44bd7.dir\Debug\cmTC_44bd7.tlog\unsuccessfulbuild".
+  Touching "cmTC_44bd7.dir\Debug\cmTC_44bd7.tlog\cmTC_44bd7.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_44bd7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6ac20.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:33 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_6ac20.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6ac20.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6ac20.dir\Debug\cmTC_6ac20.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6ac20.dir\Debug\cmTC_6ac20.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ac20.dir\Debug\\" /Fd"cmTC_6ac20.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ac20.dir\Debug\\" /Fd"cmTC_6ac20.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_LONG_LONG.c"
+  
+  SIZEOF_SIGNED_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_6ac20.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6ac20.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6ac20.lib" /MACHINE:X64  /machine:x64 cmTC_6ac20.dir\Debug\SIZEOF_SIGNED_LONG_LONG.obj
+  cmTC_6ac20.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_6ac20.exe
+  cmTC_6ac20.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_6ac20.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_6ac20.dir\Debug\cmTC_6ac20.tlog\unsuccessfulbuild".
+  Touching "cmTC_6ac20.dir\Debug\cmTC_6ac20.tlog\cmTC_6ac20.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_6ac20.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of signed short passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_46a95.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:33 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_46a95.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_46a95.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_46a95.dir\Debug\cmTC_46a95.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_46a95.dir\Debug\cmTC_46a95.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46a95.dir\Debug\\" /Fd"cmTC_46a95.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_SHORT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46a95.dir\Debug\\" /Fd"cmTC_46a95.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_SIGNED_SHORT.c"
+  
+  SIZEOF_SIGNED_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_46a95.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_46a95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_46a95.lib" /MACHINE:X64  /machine:x64 cmTC_46a95.dir\Debug\SIZEOF_SIGNED_SHORT.obj
+  cmTC_46a95.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_46a95.exe
+  cmTC_46a95.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_46a95.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_46a95.dir\Debug\cmTC_46a95.tlog\unsuccessfulbuild".
+  Touching "cmTC_46a95.dir\Debug\cmTC_46a95.tlog\cmTC_46a95.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_46a95.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_12b7b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:34 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_12b7b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_12b7b.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_12b7b.dir\Debug\cmTC_12b7b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_12b7b.dir\Debug\cmTC_12b7b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12b7b.dir\Debug\\" /Fd"cmTC_12b7b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12b7b.dir\Debug\\" /Fd"cmTC_12b7b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c"
+  
+  SIZEOF_UNSIGNED_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_12b7b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_12b7b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_12b7b.lib" /MACHINE:X64  /machine:x64 cmTC_12b7b.dir\Debug\SIZEOF_UNSIGNED_INT.obj
+  cmTC_12b7b.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_12b7b.exe
+  cmTC_12b7b.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_12b7b.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_12b7b.dir\Debug\cmTC_12b7b.tlog\unsuccessfulbuild".
+  Touching "cmTC_12b7b.dir\Debug\cmTC_12b7b.tlog\cmTC_12b7b.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_12b7b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_85879.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:35 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_85879.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_85879.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_85879.dir\Debug\cmTC_85879.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_85879.dir\Debug\cmTC_85879.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85879.dir\Debug\\" /Fd"cmTC_85879.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85879.dir\Debug\\" /Fd"cmTC_85879.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c"
+  
+  SIZEOF_UNSIGNED_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_85879.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_85879.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_85879.lib" /MACHINE:X64  /machine:x64 cmTC_85879.dir\Debug\SIZEOF_UNSIGNED_LONG.obj
+  cmTC_85879.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_85879.exe
+  cmTC_85879.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_85879.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_85879.dir\Debug\cmTC_85879.tlog\unsuccessfulbuild".
+  Touching "cmTC_85879.dir\Debug\cmTC_85879.tlog\cmTC_85879.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_85879.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a4c20.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:35 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_a4c20.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a4c20.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a4c20.dir\Debug\cmTC_a4c20.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a4c20.dir\Debug\cmTC_a4c20.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4c20.dir\Debug\\" /Fd"cmTC_a4c20.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4c20.dir\Debug\\" /Fd"cmTC_a4c20.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c"
+  
+  SIZEOF_UNSIGNED_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a4c20.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a4c20.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a4c20.lib" /MACHINE:X64  /machine:x64 cmTC_a4c20.dir\Debug\SIZEOF_UNSIGNED_LONG_LONG.obj
+  cmTC_a4c20.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_a4c20.exe
+  cmTC_a4c20.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_a4c20.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_a4c20.dir\Debug\cmTC_a4c20.tlog\unsuccessfulbuild".
+  Touching "cmTC_a4c20.dir\Debug\cmTC_a4c20.tlog\cmTC_a4c20.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_a4c20.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f3109.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:36 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_f3109.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f3109.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f3109.dir\Debug\cmTC_f3109.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f3109.dir\Debug\cmTC_f3109.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3109.dir\Debug\\" /Fd"cmTC_f3109.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3109.dir\Debug\\" /Fd"cmTC_f3109.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT.c"
+  
+  SIZEOF_UNSIGNED_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_f3109.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_f3109.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_f3109.lib" /MACHINE:X64  /machine:x64 cmTC_f3109.dir\Debug\SIZEOF_UNSIGNED_SHORT.obj
+  cmTC_f3109.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_f3109.exe
+  cmTC_f3109.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_f3109.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_f3109.dir\Debug\cmTC_f3109.tlog\unsuccessfulbuild".
+  Touching "cmTC_f3109.dir\Debug\cmTC_f3109.tlog\cmTC_f3109.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_f3109.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining size of unsigned char* passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2bbe8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:37 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_2bbe8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2bbe8.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2bbe8.dir\Debug\cmTC_2bbe8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2bbe8.dir\Debug\cmTC_2bbe8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bbe8.dir\Debug\\" /Fd"cmTC_2bbe8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bbe8.dir\Debug\\" /Fd"cmTC_2bbe8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c"
+  
+  SIZEOF_UNSIGNED_CHAR_P.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_2bbe8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2bbe8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2bbe8.lib" /MACHINE:X64  /machine:x64 cmTC_2bbe8.dir\Debug\SIZEOF_UNSIGNED_CHAR_P.obj
+  cmTC_2bbe8.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_2bbe8.exe
+  cmTC_2bbe8.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_2bbe8.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_2bbe8.dir\Debug\cmTC_2bbe8.tlog\unsuccessfulbuild".
+  Touching "cmTC_2bbe8.dir\Debug\cmTC_2bbe8.tlog\cmTC_2bbe8.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_2bbe8.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the floor exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_584c9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:38 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_584c9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_584c9.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_584c9.dir\Debug\cmTC_584c9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_584c9.dir\Debug\cmTC_584c9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_584c9.dir\Debug\\" /Fd"cmTC_584c9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_584c9.dir\Debug\\" /Fd"cmTC_584c9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_584c9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_584c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_584c9.lib" /MACHINE:X64  /machine:x64 cmTC_584c9.dir\Debug\CheckSymbolExists.obj
+  cmTC_584c9.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_584c9.exe
+  cmTC_584c9.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_584c9.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_584c9.dir\Debug\cmTC_584c9.tlog\unsuccessfulbuild".
+  Touching "cmTC_584c9.dir\Debug\cmTC_584c9.tlog\cmTC_584c9.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_584c9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+File C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floor
+  return ((int*)(&floor))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrt exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e12b1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:38 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_e12b1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e12b1.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e12b1.dir\Debug\cmTC_e12b1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e12b1.dir\Debug\cmTC_e12b1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e12b1.dir\Debug\\" /Fd"cmTC_e12b1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e12b1.dir\Debug\\" /Fd"cmTC_e12b1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_e12b1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_e12b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_e12b1.lib" /MACHINE:X64  /machine:x64 cmTC_e12b1.dir\Debug\CheckSymbolExists.obj
+  cmTC_e12b1.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_e12b1.exe
+  cmTC_e12b1.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_e12b1.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_e12b1.dir\Debug\cmTC_e12b1.tlog\unsuccessfulbuild".
+  Touching "cmTC_e12b1.dir\Debug\cmTC_e12b1.tlog\cmTC_e12b1.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_e12b1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+File C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrt
+  return ((int*)(&sqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pow exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cba09.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:39 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_cba09.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cba09.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cba09.dir\Debug\cmTC_cba09.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cba09.dir\Debug\cmTC_cba09.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cba09.dir\Debug\\" /Fd"cmTC_cba09.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cba09.dir\Debug\\" /Fd"cmTC_cba09.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_cba09.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_cba09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_cba09.lib" /MACHINE:X64  /machine:x64 cmTC_cba09.dir\Debug\CheckSymbolExists.obj
+  cmTC_cba09.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_cba09.exe
+  cmTC_cba09.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_cba09.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_cba09.dir\Debug\cmTC_cba09.tlog\unsuccessfulbuild".
+  Touching "cmTC_cba09.dir\Debug\cmTC_cba09.tlog\cmTC_cba09.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_cba09.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+File C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lfind exist passed with the following output:
+Change Dir: C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_af02e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25123.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/15/2019 3:06:39 PM.
+Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_af02e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_af02e.dir\Debug\".
+  Creating directory "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_af02e.dir\Debug\cmTC_af02e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_af02e.dir\Debug\cmTC_af02e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af02e.dir\Debug\\" /Fd"cmTC_af02e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23918 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af02e.dir\Debug\\" /Fd"cmTC_af02e.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): warning C4996: 'lfind': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lfind. See online help for details. [C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_af02e.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_search.h(185): note: see declaration of 'lfind'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_af02e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_af02e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_af02e.lib" /MACHINE:X64  /machine:x64 cmTC_af02e.dir\Debug\CheckSymbolExists.obj
+  cmTC_af02e.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\Debug\cmTC_af02e.exe
+  cmTC_af02e.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/Debug/cmTC_af02e.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_af02e.dir\Debug\cmTC_af02e.tlog\unsuccessfulbuild".
+  Touching "cmTC_af02e.dir\Debug\cmTC_af02e.tlog\cmTC_af02e.lastbuildstate".
+Done Building Project "C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_af02e.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_af02e.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): warning C4996: 'lfind': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lfind. See online help for details. [C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\CMakeFiles\CMakeTmp\cmTC_af02e.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+File C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <search.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lfind
+  return ((int*)(&lfind))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/thirdparty/libtiff/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.10/Modules/TestBigEndian.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/thirdparty/libtiff/test_inline.c
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/thirdparty/libtiff/tiffconf.h.cmake.in
+C:/Users/tdobhal/Downloads/canny-edge-cuda/project/thirdparty/libtiff/tif_config.h.cmake.in

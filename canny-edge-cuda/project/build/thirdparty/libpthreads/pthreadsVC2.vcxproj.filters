@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\attr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\barrier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\cancel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\cleanup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\condvar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\create.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\dll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\autostatic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\errno.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\exit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\fork.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\mutex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\nonportable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\rwlock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\sched.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\semaphore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\signal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\spin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\sync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\tsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\pthread.h">
+      <Filter>PTHREAD_API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\sched.h">
+      <Filter>PTHREAD_API</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\semaphore.h">
+      <Filter>PTHREAD_API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\tdobhal\Downloads\canny-edge-cuda\project\thirdparty\libpthreads\pthreads-win32\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5BB08AB0-F61C-3DB1-B59A-A11C6C1473B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PTHREAD_API">
+      <UniqueIdentifier>{A5175260-CE95-3199-B2CB-93972343CA00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

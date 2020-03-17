@@ -1,0 +1,31 @@
+﻿  Building Custom Rule C:/Users/tdobhal/Downloads/canny-edge-cuda/project/thirdparty/libpthreads/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/thirdparty/libpthreads/CMakeFiles/generate.stamp is up-to-date.
+  attr.c
+  barrier.c
+  cancel.c
+  cleanup.c
+  condvar.c
+  create.c
+  dll.c
+  autostatic.c
+  errno.c
+  exit.c
+  fork.c
+  global.c
+  misc.c
+  mutex.c
+  nonportable.c
+  private.c
+  rwlock.c
+  sched.c
+  semaphore.c
+  signal.c
+  Generating Code...
+  Compiling...
+  spin.c
+  sync.c
+  tsd.c
+  Generating Code...
+     Creating library C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/thirdparty/libpthreads/Debug/pthreadsVC2d.lib and object C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/thirdparty/libpthreads/Debug/pthreadsVC2d.exp
+  pthreadsVC2.vcxproj -> C:\Users\tdobhal\Downloads\canny-edge-cuda\project\build\thirdparty\libpthreads\Debug\pthreadsVC2d.dll
+  pthreadsVC2.vcxproj -> C:/Users/tdobhal/Downloads/canny-edge-cuda/project/build/thirdparty/libpthreads/Debug/pthreadsVC2d.pdb (Full PDB)
